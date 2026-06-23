@@ -3,3 +3,4 @@
 | Status | Problem | Difficulty | File | Date |
 |:------:|---------|:----------:|------|------|
 | ✅ | [Pow(x, n)](https://leetcode.com/problems/powx-n/submissions/2043023378/) | N/A | [`powx-n.cpp`](./powx-n.cpp) | Jun 23, 2026 |
+| ✅ | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/submissions/2043210633/) | N/A | [`search-a-2d-matrix.cpp`](./search-a-2d-matrix.cpp) | Jun 23, 2026 |
