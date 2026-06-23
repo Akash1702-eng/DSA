@@ -1,8 +1,8 @@
 // Problem: Search a 2D Matrix
-// Difficulty: Medium
+// Difficulty: N/A
 // Status: Accepted
 // Submitted: June 23, 2026
-// URL: https://leetcode.com/problems/search-a-2d-matrix/submissions/2043201743/
+// URL: https://leetcode.com/problems/search-a-2d-matrix/submissions/2043210633/
 using namespace std;
 
 class Solution {
