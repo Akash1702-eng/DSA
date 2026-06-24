@@ -1,15 +1,15 @@
 // Problem: Majority Element
 // Difficulty: Easy
-// Status: Unknown
+// Status: Accepted
 // Submitted: June 24, 2026
-// URL: https://leetcode.com/problems/majority-element/
+// URL: https://leetcode.com/problems/majority-element/submissions/2044452552/
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
         map<int, int> mpp;
         for(int i=0; i<nums.size(); i++)
         {
-            mpp(v[i])++;
+            mpp[nums[i]]++;
         }
 
         for(auto it:mpp)
