@@ -4,3 +4,4 @@
 |:------:|---------|:----------:|------|------|
 | ❌ | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [`majority-element.cpp`](./majority-element.cpp) | Jun 24, 2026 |
 | ✅ | [Majority Element](https://leetcode.com/problems/majority-element/submissions/2044452552/) | Easy | [`majority-element.cpp`](./majority-element.cpp) | Jun 24, 2026 |
+| ✅ | [Majority Element](https://leetcode.com/problems/majority-element/submissions/2044460908/) | Easy | [`majority-element.cpp`](./majority-element.cpp) | Jun 24, 2026 |
