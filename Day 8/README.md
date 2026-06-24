@@ -1,0 +1,5 @@
+# Day 8 — LeetCode Solutions
+
+| Status | Problem | Difficulty | File | Date |
+|:------:|---------|:----------:|------|------|
+| ❌ | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [`majority-element.cpp`](./majority-element.cpp) | Jun 24, 2026 |
