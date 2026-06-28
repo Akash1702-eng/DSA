@@ -1,43 +1,28 @@
 // Problem: Longest Substring Without Repeating Characters
 // Difficulty: Medium
-// Status: Unknown
+// Status: Accepted
 // Submitted: June 28, 2026
-// URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/
-#include <bits/stdc++.h>
-using namespace std;
-
+// URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2049184569/
 class Solution {
 public:
-    int longestNonRepeatingSubstring(string& s) {
-        int n = s.size();
+    int lengthOfLongestSubstring(string s) {
         int hash[256];
 
         for (int i = 0; i < 256; i++) {
             hash[i] = -1;
         }
 
-        int l = 0, r = 0, maxLen = 0;
+        int l = 0, maxLen = 0;
 
-        while (r < n) {
+        for (int r = 0; r < s.size(); r++) {
             if (hash[s[r]] != -1) {
-                l = max(hash[s[r]] + 1, l);
+                l = max(l, hash[s[r]] + 1);
             }
 
             maxLen = max(maxLen, r - l + 1);
             hash[s[r]] = r;
-            r++;
         }
 
         return maxLen;
     }
 };
-
-int main() {
-    string s = "cadbzabcd";
-
-    Solution sol;
-    cout << "The maximum length is:\n";
-    cout << sol.longestNonRepeatingSubstring(s) << endl;
-
-    return 0;
-}
