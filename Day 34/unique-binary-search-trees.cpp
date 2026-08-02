@@ -2,7 +2,7 @@
 // Difficulty: N/A
 // Status: Accepted
 // Submitted: August 2, 2026
-// URL: https://leetcode.com/problems/unique-binary-search-trees/submissions/2091766533/
+// URL: https://leetcode.com/problems/unique-binary-search-trees/submissions/2091766731/
 class Solution {
 public:
     int numTrees(int n) {
